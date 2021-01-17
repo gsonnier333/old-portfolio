@@ -1,3 +1,8 @@
+/* Main content styles */
+body {
+	background-image: url(./Assets/Images/prism/prism.png);
+}
+
 section.container {
 	background-color: rgb(248, 249, 250);
 	margin-top: 100px;
@@ -26,4 +31,39 @@ img {
 
 #profileDesc {
 	font-size: 18px;
+}
+
+/* Adjusting bootstrap styles */
+.container-fluid {
+	height: 50px;
+}
+
+.d-flex {
+	position: absolute;
+	right: 95px;
+}
+
+.navbar-toggler {
+	position: absolute;
+	right: 20px;
+}
+
+#navbarToggleExternalContent {
+	width: 200px;
+	position: absolute;
+	right: 0px;
+}
+
+.p-4 {
+	position: relative;
+	background: rgb(248, 249, 250);
+	background: linear-gradient(
+		0deg /*, rgba(248, 249, 250, 0.95) 20% */,
+		rgba(248, 249, 250, 0.97) 90%,
+		rgba(248, 249, 250, 1) 100%
+	);
+	border-bottom-left-radius: 7px;
+	border-color: rgba(0, 0, 0, 0.98);
+	border-style: solid;
+	border-width: 0px 0px 1px 1px;
 }

@@ -20,14 +20,14 @@
 
 		<link rel="stylesheet" href="./style.css" />
 	</head>
-	<body style="background-image: url(./Assets/Images/prism/prism.png)">
+	<body>
 		<!-- 
 			
 			navbar 
 		
 		-->
 		<nav class="navbar navbar-light bg-light">
-			<div class="container-fluid" style="height: 50px">
+			<div class="container-fluid">
 				<a
 					class="navbar-brand navbar-light"
 					style="font-size: 30px; margin: -5px 0 5px 5px"
@@ -35,7 +35,7 @@
 					>Home</a
 				>
 				<!-- Search bar and button -->
-				<form class="d-flex" style="position: absolute; right: 95px">
+				<form class="d-flex">
 					<input
 						class="form-control me-2"
 						type="search"
@@ -55,29 +55,14 @@
 					aria-controls="navbarToggleExternalContent"
 					aria-expanded="false"
 					aria-label="Toggle navigation"
-					style="position: absolute; right: 20px"
 				>
 					<span class="navbar-toggler-icon"></span>
 				</button>
 			</div>
 		</nav>
 		<!-- Dropdown menu -->
-		<div
-			class="collapse"
-			id="navbarToggleExternalContent"
-			style="width: 200px; position: absolute; right: 0px"
-		>
-			<div
-				class="p-4"
-				style="
-					position: relative;
-					background-color: rgba(248, 249, 250, 0.9);
-					border-bottom-left-radius: 7px;
-					border-color: rgba(0, 0, 0, 0.9);
-					border-style: solid;
-					border-width: 0px 0px 1px 1px;
-				"
-			>
+		<div class="collapse" id="navbarToggleExternalContent">
+			<div class="p-4">
 				<h5 class="text-black h4">Navigation:</h5>
 				<br />
 				<h6><a href="portfolio.html">Portfolio</a></h6>
@@ -89,8 +74,13 @@
 			end navbar
 		
 		-->
+
+		<!--
+			
+			About Me
+		 
+		-->
 		<section class="container">
-			<!-- <img src="./Assets/Images/profile-pic.jpg" alt="" /> -->
 			<p>
 				<img src="./Assets/Images/profile-pic.jpg" alt="" />
 				<span id="profileDesc">
@@ -109,5 +99,9 @@
 				</span>
 			</p>
 		</section>
-	</body>
+		<!-- 
+			
+			end About Me
+		
+		--></body>
 </html>
