@@ -65,9 +65,9 @@
 			<div class="p-4">
 				<h5 class="text-black h4">Navigation:</h5>
 				<br />
-				<h6><a href="index.html">About Me</a></h6>
-				<h6><a href="portfolio.html">Portfolio</a></h6>
-				<h6><u>Contact</u></h6>
+				<h5><a href="index.html" class="menuLink">About Me</a></h5>
+				<h5><a href="portfolio.html" class="menuLink">Portfolio</a></h5>
+				<h5><a href="contact.html" class="menuLink">Contact</a></h5>
 			</div>
 		</div>
 		<!--
@@ -89,18 +89,24 @@
 			</h1>
 			<br />
 			<form>
-				<div class="mb-3">
+				<div class="mb-3 smallerField">
 					<label for="inputName" class="form-label">Name</label>
-					<input type="name" class="form-control" id="inputName" />
+					<input
+						type="name"
+						class="form-control"
+						id="inputName"
+						maxlength="50"
+					/>
 				</div>
 
-				<div class="mb-3">
+				<div class="mb-3 smallerField">
 					<label for="inputEmail" class="form-label">Email</label>
 					<input
 						type="email"
 						class="form-control"
 						id="inputEmail"
 						aria-describedby="emailHelp"
+						maxlength="50"
 					/>
 				</div>
 				<div class="mb-3">
@@ -109,6 +115,8 @@
 						type="message"
 						class="form-control"
 						rows="3"
+						style="resize: none"
+						maxlength="300"
 					></textarea>
 				</div>
 
