@@ -20,12 +20,14 @@ section.padding {
 
 p,
 img,
-h1 {
+h1,
+h3 {
 	margin: 10px auto;
 	display: inline-block;
 }
 
-h1 {
+h1,
+h3 {
 	color: rgb(60, 60, 60);
 }
 img {
@@ -41,7 +43,7 @@ img {
 	padding: 50px;
 } */
 
-#selectedLink {
+/* #selectedLink {
 	color: rgb(60, 60, 60);
 	text-decoration: none;
 	padding: 0 10px;
@@ -50,7 +52,7 @@ img {
 #selectedLink:hover {
 	text-decoration: underline;
 	width: max-content;
-}
+} */
 
 .menuLink {
 	text-decoration: none;
