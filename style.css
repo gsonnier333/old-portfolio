@@ -3,8 +3,7 @@ body {
 	background-image: url(./Assets/Images/prism/prism.png);
 }
 
-section.container,
-section.container-lg {
+section.custom-cont {
 	background-color: rgb(248, 249, 250);
 	margin-top: 100px;
 	border-radius: 7px;
@@ -90,27 +89,33 @@ img {
 }
 
 /* Adjusting navbar styles */
-.container-fluid {
+.top-bar {
 	height: 50px;
 }
 
-.d-flex {
+.search-bar-cont {
 	position: absolute;
 	right: 85px;
 }
 
-.navbar-toggler {
+.burger-button {
 	position: absolute;
 	right: 15px;
 }
 
-#navbarToggleExternalContent {
+/* #navbarToggleExternalContent {
+	width: 200px;
+	position: absolute;
+	right: 0px;
+} */
+
+.extern-content {
 	width: 200px;
 	position: absolute;
 	right: 0px;
 }
 
-.p-4 {
+.drop-content {
 	position: relative;
 	background: rgb(248, 249, 250);
 	background: linear-gradient(
@@ -122,4 +127,20 @@ img {
 	border-color: rgba(0, 0, 0, 0.98);
 	border-style: solid;
 	border-width: 0px 0px 1px 1px;
+}
+
+#footerCont {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	z-index: 0;
+}
+
+#footerBar {
+	height: 30px;
+}
+
+#nameLink {
+	font-size: 30px;
+	margin: -5px 0 5px 5px;
 }

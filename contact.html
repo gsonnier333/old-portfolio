@@ -26,16 +26,16 @@
 			navbar
 
 		-->
-		<nav class="navbar navbar-light bg-light">
-			<div class="container-fluid">
+		<nav class="navbar navbar-light bg-light" style="z-index: 1">
+			<div class="container-fluid top-bar">
 				<a
 					class="navbar-brand navbar-light"
-					style="font-size: 30px; margin: -5px 0 5px 5px"
+					id="nameLink"
 					href="index.html"
 					>Greg S.</a
 				>
 				<!-- Search bar and button -->
-				<form class="d-flex">
+				<form class="d-flex search-bar-cont">
 					<input
 						class="form-control me-2"
 						type="search"
@@ -48,7 +48,7 @@
 				</form>
 				<!-- Dropdown button -->
 				<button
-					class="navbar-toggler"
+					class="navbar-toggler burger-button"
 					type="button"
 					data-bs-toggle="collapse"
 					data-bs-target="#navbarToggleExternalContent"
@@ -61,8 +61,8 @@
 			</div>
 		</nav>
 		<!-- Dropdown menu -->
-		<div class="collapse" id="navbarToggleExternalContent">
-			<div class="p-4">
+		<div class="collapse extern-content" id="navbarToggleExternalContent">
+			<div class="p-4 drop-content">
 				<h5 class="text-black h4">Navigation:</h5>
 				<br />
 				<h5><a href="index.html" class="menuLink">About Me</a></h5>
@@ -81,7 +81,7 @@
 			Contact Forms
 
 		-->
-		<section class="container">
+		<section class="container custom-cont">
 			<h1>
 				<u
 					>Contact&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u
