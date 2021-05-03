@@ -1,7 +1,9 @@
 Deployed at: gsonnier333.github.io
 
-Screenshots at: https://imgur.com/a/ZbhpO9x
+This site serves as my portfolio with a brief About Me section and a page with my contact information. It also includes a link to download a pdf of my resume.
 
-For this project, I created a website to use in the future for my portfolio. While it currently uses placeholder information, the site was designed and structured to be easily modified and added to in the future once I have projects to add to my portfolio and am ready to show it off. In building this site, I learned how to use Bootstrap elements to easily create responsive elements on the page that look good on different screen sizes. I also got more practice with styling things myself in css and positioning them appropriately on the screen.
+## Screenshots
 
-The site has an "About Me" page with an image of myself and placeholder text that will eventually contain a basic description of myself and my experience. Additionally, the site has a "Portfolio" page with five placeholder images and placeholder text beside each of them. These images will be thumbnails and links of projects in my portfolio and the text will include a title and description of each project. Finally, the site includes a "Contact" page with forms for sending me a message through the website. These forms currently have no functionality, but will when I update the site in the future. At the top of each page is a navbar with my name in the top left, which links to the About Me (index) page when clicked on. On the other end of the navbar is a non-functional search bar and a button that creates a dropdown when clicked on that shows links to the other pages on the site.
+![About Me page](./Assets/Images/screenshots/about-me.png)
+![Portfolio page](./Assets/Images/screenshots/portfolio.png)
+![Contact page](./Assets/Images/screenshots/contact.png)
